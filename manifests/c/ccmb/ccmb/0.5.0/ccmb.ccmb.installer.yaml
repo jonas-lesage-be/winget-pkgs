@@ -3,18 +3,24 @@
 PackageIdentifier: ccmb.ccmb
 PackageVersion: 0.5.0
 InstallerLocale: en-US
-InstallerType: portable
-Commands:
-  - ccmb.exe
-ReleaseDate: "2026-09-23"
+InstallerType: zip
+ReleaseDate: "2026-09-27"
 Installers:
   - Architecture: x64
-    InstallerUrl: https://github.com/jonas-lesage-be/ccmb/releases/download/v0.5.0/ccmb_0.5.0_windows_amd64.exe
-    InstallerSha256: CC3D3F42C737CAA4EF56FA5E1865A3141F5E1A30A383957BB1790A489E31CD40
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: ccmb.exe
+        PortableCommandAlias: ccmb
+    InstallerUrl: https://github.com/jonas-lesage-be/ccmb/releases/download/v0.5.0/ccmb_0.5.0_windows_amd64.zip
+    InstallerSha256: b4e2f2d31279361ab6bf9b600a72bbce3499e24d9bc70483ac6e0bbc3377f32e
     UpgradeBehavior: uninstallPrevious
   - Architecture: arm64
-    InstallerUrl: https://github.com/jonas-lesage-be/ccmb/releases/download/v0.5.0/ccmb_0.5.0_windows_arm64.exe
-    InstallerSha256: 7DD9B84B1CFBDC1FA2AD329B8C85E156B7B477FF49DFB48D1B93FF8B09794BA3
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: ccmb.exe
+        PortableCommandAlias: ccmb
+    InstallerUrl: https://github.com/jonas-lesage-be/ccmb/releases/download/v0.5.0/ccmb_0.5.0_windows_arm64.zip
+    InstallerSha256: d179f383731c41be1dae4eded69e0002de301f112827084d7eedc003ab3f6e3f
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.12.0
