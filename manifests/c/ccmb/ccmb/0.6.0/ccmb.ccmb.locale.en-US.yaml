@@ -40,11 +40,12 @@ ReleaseNotes: |
   * 589da1262c916c71e34fb9ded7e7fc6e565f7415 Add project_source_url to choco GoReleaser configuration
   * b0bfad6dad80dd51efff7f3c5c59e9e90b4dac24 Change winget license_url GoReleaser config
   * 6a71afee415cd04d1ec00868cd277df2dec89659 Enable prerelease option in GoReleaser config
+  * 3ee333de87a9d93d1938b6af3848f8b8bab1ee22 Fix release notes URL format in winget and chocolatey config
   * 13cd4440b888dc65a0b13c11fbefc6f2c2f88eb8 Update CLI to display version information
   * ebc18017fb168cfce038635c9ac4f9a24ce793fe Update Dockerfile to add missing dependencies
   * 6185293b4511ae221ef1e223d39282cb3e273367 Update GoReleaser configuration to make builds reproducible
   * b464e8a8d95a898a901a279609e68d5d14538b5c Update README.md
   * 0b68f661578482d2d2f42047d40a83959b7a2ef7 Update copyright year in winget and chocolatey configurations to use current year
-ReleaseNotesUrl: https://github.com/jonas-lesage-be/ccmb/releases/tag/0.6.0
+ReleaseNotesUrl: https://github.com/jonas-lesage-be/ccmb/releases/tag/v0.6.0
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
